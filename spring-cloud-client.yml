@@ -1,2 +1,7 @@
 ---
 lucky-word: hello aravind sharma
+
+---
+spring:
+  profiles: bangalore
+lucky-word: hello bangalore
