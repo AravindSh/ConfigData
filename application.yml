@@ -22,3 +22,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:8010/eureka/
 words: water,fruit,history
+---
+spring:
+  profiles: sentence
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
