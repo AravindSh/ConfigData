@@ -1,0 +1,24 @@
+---
+spring:
+  profiles: subject
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
+words: Aravind,Saurav,Prudhvi
+---
+spring:
+  profiles: verb
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
+words: drink,eat,read
+---
+spring:
+  profiles: object
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
+words: water,fruit,history
