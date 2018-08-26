@@ -4,7 +4,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
 words: Aravind,Saurav,Prudhvi
 ---
 spring:
@@ -12,7 +12,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
 words: drink,eat,read
 ---
 spring:
@@ -20,7 +20,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
 words: water,fruit,history
 ---
 spring:
@@ -28,4 +28,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/
