@@ -1,0 +1,9 @@
+---
+spring:
+  profiles:
+    active: subject
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8010/eureka/
+words: Aravind,Saurav,Prudhvi
