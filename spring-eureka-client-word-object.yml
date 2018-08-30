@@ -1,0 +1,9 @@
+---
+spring:
+  profiles:
+    active: object
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8010/eureka/
+words: water,fruit,history
