@@ -1,7 +1,6 @@
 ---
 spring:
-  profiles:
-    active: verb
+  profiles: verb
 eureka:
   client:
     service-url:
